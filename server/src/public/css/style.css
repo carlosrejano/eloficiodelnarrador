@@ -1,0 +1,1246 @@
+body {
+  position: relative;
+  font-family: "Courier New";
+  font-size: 16px;
+  letter-spacing: -1.5px;
+  word-spacing: 0px;
+  background: /*#FBFBF8*/ #E1E3DD;
+  overflow-x: hidden;
+
+}
+header {
+  width: 100vw;
+  height: 35px;
+  background: white;
+  position: relative;
+  border-bottom: 3px solid black;
+}
+header h1 a{
+  color: black;
+}
+header nav .ioMenuMovil{
+  height: 25px;
+  width: 30px;
+  cursor: pointer;
+  line-height: 40px;
+  margin: 0px 0px 0px 10px;
+  padding-top: 5px;
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: 2.5px;
+  padding-left: 5px;
+}
+header nav .ioMenuMovil img{
+  height: 100%;
+  position: relative;
+  margin-top: -5px;
+}
+header h1{
+  display:none;
+}
+header nav #card_menu{
+  display:none;
+  position:relative;
+  width: 250px;
+  height: 300px;
+  top: -35px;
+  left: 0px;
+  z-index: 999;
+  padding-bottom: 50px;
+  background: white;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+header nav #card_menu ul{
+  margin-top: 5px;
+}
+header nav #card_menu ul li{
+  list-style: none;
+  margin-top: 10px;
+  font-size: 1.15em;
+  line-height: 37px;
+}
+header nav #card_menu ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  background-image: linear-gradient(gray, gray), linear-gradient(white, white);
+  background-size: 0 5px, auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  transition: all .3s ease-out;
+}
+header nav #card_menu ul li a:hover{
+  background-size: 100% 5px, auto;
+}
+#slider{
+  width: 100%;
+  position: relative;
+}
+#slider section.slide{
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
+#slider #inicio{
+  position: relative;
+  width:100vw;
+  /*text-align: center;*/
+  padding-bottom: 50px;
+}
+#slider #inicio #pluma{
+  display: none;
+}
+#slider #inicio #lapiz{
+  display: none;
+}
+#slider #inicio #maintext h1{
+  width: 100vw;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 900;
+  text-decoration: underline;
+}
+.container {
+  border-top: 3px dotted;
+  width: 100vw;
+  text-align: center;
+  margin-bottom: 20px;
+  font-style: italic;
+  font-size: 0.9em;
+}
+#slider #inicio .container p{
+  margin-top: 8px;
+  width: 90%;
+  margin-left:5%;
+  margin-right: 5%;
+}
+#slider #inicio #container1 #i1{
+  height: 40px;
+  left: 50%;
+  margin-left: -22px;
+  color: black;
+  margin-top: -10px;
+}
+#slider #inicio #container1 #i1:before{
+  font-family: 'icomoon';
+  content: "\e91f";
+  font-size: 2em;
+}
+#slider #inicio #listaicono {
+  display: inline-block;
+  list-style: none;
+  height: 55px;
+  margin-bottom: 20px;
+}
+#slider #inicio #container2 #i2{
+  position: relative;
+  width: 55px;
+  height: 55px;
+  margin-left: -10px;
+}
+#slider #inicio #container2 #i2:before{
+  font-family: 'icomoon';
+  content: "\e908";
+  transform: rotate(180deg);
+  font-size: 2.5em;
+}
+#slider #inicio #listaicono ul{
+  text-align: left;
+  position: relative;
+  left:20px;
+  margin-top: -62.5px;
+  list-style: none;
+  margin-bottom: 20px;
+}
+#slider #inicio #listaicono ul li{
+  padding-bottom: 2px;
+}
+#slider #inicio #container3,#container4{
+  margin-top: -10px;
+  position:relative;
+}
+#slider #inicio #container5{
+  border-bottom: 3px dotted;
+}
+#slider #inicio #container5 p{
+  position: relative;
+  margin-top: 15px;
+}
+#slider #sobremi{
+  width: 100vw;
+}
+#slider #sobremi #foto{
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 50%;
+  margin-left: -100px;
+}
+#slider #sobremi #foto img{
+  width: 200px;
+  height: 200px;
+}
+#slider #sobremi h2{
+  text-align: center;
+}
+#slider #sobremi p{
+  position: relative;
+  top: -10px;
+  text-align: justify;
+  font-size: 0.9em;
+  width: 80vw;
+  margin-left: 10vw;
+}
+#slider #sobremi a{
+  display: block;
+}
+#slider #sobremi .iconopdf{
+  float:left;
+  position: relative;
+  padding-left: 3px;
+  padding-top: -10px;
+  width:34px;
+  text-decoration: none;
+}
+#slider #sobremi .iconopdf::before{
+  font-style: normal;
+  font-family: 'icomoon';
+  content:"\eadf";
+  font-size: 1.5em;
+  color: black;
+}
+#slider #sobremi #CV{
+  width: 135px;
+  margin-left: -67.5px;
+  margin-bottom: 30px;
+}
+#slider #sobremi .articulo{
+  text-align: center;
+  margin-bottom: 60px;
+  color: black;
+  position: relative;
+  background: white;
+  width: 175px;
+  left: 50vw;
+  height: 32.5px;
+  margin-left: -87.5px;
+  padding-top: 5px;
+  border-radius: 5px;
+  border: 2px solid black;
+  text-decoration: none;
+  margin-top: -10px;
+}
+#slider #sobremi .articulo p{
+  padding-top: 2px;
+}
+#slider #sobremi .articulo:hover{
+  background: red;
+  box-shadow: 0px 0px 15px black;
+}
+#slider #sobremi .container{
+  font-style: normal;
+  font-size: 1em;
+  position: relative;
+  margin-top: 10px;
+  padding-top: 5px;
+}
+#slider #cursos{
+  width:100vw;
+}
+#slider #cursos #precio{
+  font-size: 0.8em;
+  font-style: italic;
+  width:80%;
+  margin-left: 10%;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+#slider #cursos #infomat{
+  margin-top: 30px;
+}
+#slider #cursos h2{
+  text-align: center;
+}
+#slider #cursos p{
+  margin-left: 10vw;
+  margin-right: 10vw;
+  text-align: justify;
+}
+.accordion {
+  background-color: #ccc;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  border: 1px solid black;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  margin-bottom: 20px;
+  position:relative;
+}
+#slider #cursos #curso1 .accordion{
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+.active, .accordion:hover {
+  background-color: #eee;
+}
+.accpanel {
+  margin-top: -20px;
+  margin-bottom: 20px;
+  background-color: #ccc;
+  overflow: hidden;
+  transition: height 0.35s ease;
+  border: 1px solid black;
+  border-top: none;
+  position:relative;
+}
+#slider #cursos #curso1 .accpanel{
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+#slider #cursos #infoseminarios{
+  margin-left: 10vw;
+  width: 80vw;
+  margin-bottom: 110px;
+  margin-top: -110px;
+}
+#slider #cursos #infosemi{
+  margin-left: 10vw;
+  width: 80vw;
+  margin-bottom: 110px;
+  position: relative;
+}
+ul.numbers{
+  list-style-type: decimal;
+  font-style: normal;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+ul.romannumbers li{
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+ul.romannumbers{
+  list-style-type: upper-roman;
+  text-align: justify;
+  margin-right: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#slider #cursos #curso1{
+  border: 2px dotted;
+  width: 80vw;
+  margin-left: 10vw;
+  font-style: normal;
+  margin-bottom: 100px;
+  padding-bottom: 30px;
+}
+#slider #cursos #curso1 p{
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#slider #cursos #curso1 a{
+  position: relative;
+  background: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid black;
+  top: 5px;
+}
+#slider #cursos #curso1 a:hover{
+  background: red;
+  box-shadow: 0px 0px 15px black;
+}
+#slider #asesoramiento h2,h3{
+  text-align: center;
+  text-decoration: underline;
+}
+#slider #asesoramiento p{
+  margin-left: 10vw;
+  margin-right: 10vw;
+  text-align: justify;
+}
+#slider #asesoramiento input, #slider #asesoramiento textarea{
+  display: block;
+  left: 50%;
+  position: relative;
+  width:80%;
+  margin-left: -40%;
+  border: none;
+  border-bottom: 2px solid gray;
+  margin-bottom: 5px;
+  font-weight: bold;
+
+}
+#slider #asesoramiento #buttonasesoramiento{
+  background: red;
+  position: relative;
+  border: none;
+  padding: 5px 0px;
+  border-radius: 5px;
+  border: 2px solid black;
+  margin-bottom: 150px;
+  left: 50%;
+  margin-left: -40%;
+  width: 80%;
+
+}
+#slider #asesoramiento #buttonasesoramiento:hover{
+  cursor: pointer;
+  background: gray;
+}
+#contact_form{
+  position: absolute;
+  right: 0px;
+  top: 35px;
+  background: white;
+  width: 250px;
+  border-top: 1px solid black;
+  box-shadow: 0px 0px 3px #9F9E9E;
+  height: 100vh;
+  z-index: 999;
+  display: none;
+}
+#contact_form #close_form{
+  position: relative;
+  width: 30px;
+  height: 30px;
+  left: 85%;
+  top: 220px;
+}
+#contact_form #close_form:hover{
+  cursor:pointer;
+}
+#contact_form #close_form:before{
+  font-family: 'icomoon';
+  content: "\ea0f";
+  top: 5px;
+  left: 9px;
+  position: relative;
+}
+#contact_form figure{
+  height: 180px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  background: gray;
+}
+#contact_form figure img{
+  height: 100%;
+  margin: 0px;
+}
+#contact_form p{
+  margin: 20px;
+  width: 90%;
+  margin-left: 5%;
+}
+#contact_form input, #contact_form textarea{
+  display: block;
+  margin: 20px;
+  border: none;
+  border-bottom: 2px solid gray;
+  width: 90%;
+  margin-left: 5%;
+  padding-bottom: 3px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+#contact_form #button{
+  background: red;
+  border: none;
+  padding: 5px 0px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+#contact_form #button:hover{
+  cursor: pointer;
+  background: gray;
+}
+#contact_button{
+  width: 60px;
+  height: 60px;
+  background: black;
+  border-radius: 50%;
+  color: white;
+  z-index: 80;
+  right: 15px;
+  position: fixed;
+  top: 90vh;
+  opacity: 60%;
+  border: 1px solid white;
+}
+#contact_button:hover{
+  cursor: pointer;
+  background: white;
+  color: black;
+  border-color: black;
+}
+#contact_button:before{
+  font-family: 'icomoon';
+  content: "\e96e";
+  position: relative;
+  font-size: 2.25em;
+  top: 8px;
+  left: 13px;
+}
+footer{
+  width:100%;
+  color: white;
+  background: black;
+  text-align: center;
+  z-index: 90;
+  height: 110px;
+  position: fixed;
+  opacity:0.8;
+  bottom: -90px;
+  transition-duration: 0.5s;
+}
+footer:hover{
+  bottom:0px;
+}
+footer:after{
+  content: "\ea50";
+  font-family: 'icomoon';
+  position: absolute;
+  top: 0px;
+  left:50vw;
+  height: 70px;
+  width:70px;
+  background: orange;
+  margin-left: -40px;
+  margin-top: -25px;
+  border-radius: 50%;
+  color: white;
+  background: black;
+  font-size: 4.5em;
+  text-align: center;
+  transition-duration: 0.5s;
+}
+footer:hover:after{
+    transform: rotate(180deg);
+}
+footer .rrss{
+  margin-top: 45px;
+  width: 100%;
+  height: 40px;
+}
+footer p{
+  font-size: 0.5em;
+}
+footer .rrss a{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  position:relative;
+  background: black;
+}
+footer .rrss a:before{
+  text-decoration: none;
+  position: absolute;
+  font-size: 2em;
+  top:3px;
+  left:5px;
+  font-family: 'icomoon';
+  color: white;
+}
+footer .rrss a:nth-child(1):before{
+  content: "\ea96";
+}
+footer .rrss a:nth-child(1):hover{
+  content: "\ea96";
+  background: #E1E3DD;
+}
+footer .rrss a:nth-child(2):before{
+  content: "\ea92";
+}
+footer .rrss a:nth-child(2):hover{
+  content: "\ea92";
+  background: #E1E3DD;
+}
+@media screen and (min-width: 480px) {
+  body {
+    font-size: 19px;
+  }
+  header {
+    height: 42.5px;
+  }
+  header nav .ioMenuMovil{
+    height: 35px;
+    width: 40px;
+  }
+  header nav #card_menu{
+    width: 375px;
+    height: 250px;
+    top: -43px;
+  }
+
+  #slider #inicio .container p{
+    margin-bottom: 25px;
+  }
+
+  #slider #sobremi #foto{
+    width: 250px;
+    height: 250px;
+    margin-left: -125px;
+  }
+
+  #slider #sobremi #foto img{
+    width: 250px;
+    height: 250px;
+  }
+
+  #slider #sobremi .iconopdf{
+    left: 5px;
+  }
+
+  #slider #sobremi #CV{
+    width: 175px;
+    height: 40px;
+    margin-left: -87.5px;
+  }
+
+  #slider #sobremi .articulo{
+    width: 225px;
+    height: 40px;
+    margin-left: -112.5px;
+    margin-bottom: 60px;
+  }
+
+  .accordion {
+    font-size: 1em;
+  }
+
+  #slider #cursos #infoseminarios{
+    margin-bottom: 150px;
+    margin-top: -150px;
+  }
+  #slider #cursos #infosemi{
+    margin-bottom: 150px;
+  }
+
+  ul.romannumbers{
+    position: relative;
+    left: 15px;
+  }
+
+  #contact_form{
+    width: 350px;
+  }
+
+  #contact_button{
+    width: 67.5px;
+    height: 67.5px;
+    top: 89vh;
+  }
+
+  footer{
+    height: 130px;
+    bottom: -110px;
+  }
+
+  footer:after{
+    height: 80px;
+    width:80px;
+    margin-left: -40px;
+    margin-top: -30px;
+    font-size: 4.25em;
+  }
+
+  footer .rrss{
+    margin-top: 50px;
+    height: 50px;
+  }
+
+  footer .rrss a{
+    width: 50px;
+    height: 50px;
+  }
+
+  footer .rrss a:before{
+    top:3.5px;
+    left:6px;
+  }
+}
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    font-size: 22.5px;
+  }
+  header {
+    height: 50px;
+  }
+
+  header nav .ioMenuMovil{
+    height: 40px;
+    width: 45px;
+    padding-left: 5px;
+  }
+
+  header nav #card_menu{
+    width: 425px;
+    height: 325px;
+    top: -50px;
+  }
+
+  #slider #inicio .container p{
+    margin-bottom: 20px;
+  }
+
+  #slider #sobremi #foto{
+    width: 300px;
+    height: 300px;
+    margin-left: -150px;
+  }
+
+  #slider #sobremi #foto img{
+    width: 300px;
+    height: 300px;
+  }
+
+  #slider #sobremi .iconopdf{
+    left: 10px;
+  }
+
+  #slider #sobremi #CV{
+    width: 225px;
+    height: 45px;
+    margin-left: -112.5px;
+  }
+
+  #slider #sobremi .articulo{
+    width: 275px;
+    height: 45px;
+    margin-left: -137.5px;
+    margin-bottom: 75px;
+  }
+
+
+  #slider #cursos #infoseminarios{
+    margin-bottom: 125px;
+    margin-top: -125px;
+  }
+  #slider #cursos #infosemi{
+    margin-bottom: 125px;
+  }
+
+  ul.romannumbers{
+    position: relative;
+    left: 12.5px;
+  }
+
+  #contact_form{
+    width: 400px;
+  }
+
+  #contact_button{
+    width: 75px;
+    height: 75px;
+    top: 88.5vh;
+  }
+
+  footer{
+    height: 150px;
+    bottom: -130px;
+  }
+
+  footer:after{
+    height: 90px;
+    width:90px;
+    margin-left: -45px;
+    margin-top: -35px;
+    font-size: 4em;
+  }
+
+  footer .rrss{
+    margin-top: 55px;
+    width: 100%;
+    height: 60px;
+  }
+
+  footer .rrss a{
+    width: 60px;
+    height: 60px;
+  }
+
+  footer .rrss a:before{
+    top:4.5px;
+    left:7.5px;
+  }
+}
+
+@media screen and (min-width: 791px) {
+  body {
+    font-size: 22.5px;
+  }
+  header{
+    height: 80px;
+  }
+  header h1 {
+    display: inline-block;
+    width: 25%;
+    margin: 0px;
+    height: 80px;
+    line-height: 80px;
+    left: 30px;
+    position: relative;
+    font-size: 0.9em;
+    letter-spacing: -2px;
+    word-spacing: -5px;
+
+  }
+  header h1 > *{
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    color: white;
+    /*font-size: 0.8rem;*/
+    margin:0px 3px;
+
+  }
+  header h1 figure{
+    height: 75px;
+    width: 75px;
+    margin: 0px;
+    padding-right: 0px;
+  }
+  header h1 figure img{
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+  }
+  header nav{
+    display: inline-block;
+    vertical-align: middle;
+    width: 70%;
+    height: 100%;
+    position: relative;
+    top: 0px;
+    margin-left: -10px;
+    padding:0px;
+    margin: 0px;
+  }
+  header nav #showMenu,
+  header nav #hideMenu{
+    display:none;
+  }
+  header nav #card_menu{
+    padding:0px;
+    margin-left: 25px;
+    display: inline-block;
+    border: none;
+    background: none;
+    position: relative;
+    top: 5px;
+    width: 100%;
+    margin-left: 10px;
+    height:100%;
+    text-align: right;
+    padding-bottom: 0px;
+    font-size: 0.7em;
+  }
+  header nav #card_menu ul{
+    padding:0px;
+    margin-top:-5px;
+    vertical-align: middle;
+    border:none;
+  }
+
+  header nav #card_menu ul li{
+    display: inline-block;
+    max-width: 150px;
+    text-align: center;
+    line-height: 30px;
+    vertical-align: middle;
+  }
+  header nav #card_menu ul li:nth-child(3){
+    margin-right: -10px;
+  }
+  header nav #card_menu ul li:nth-child(3){
+    margin-left: -20px;
+  }
+  header nav #card_menu ul li:nth-child(4){
+    margin-left: -10px;
+  }
+  header nav #card_menu ul li:nth-child(5){
+    margin-left: -10px;
+  }
+  header nav #card_menu ul li a{
+    color: black;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(gray, gray), linear-gradient(white, white);
+    background-size: 0 5px, auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: all .3s ease-out;
+  }
+
+  header nav #card_menu ul li a:hover{
+    background-size: 100% 5px, auto;
+  }
+
+/*  header nav #card_menu ul li a::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #b47dcd, #e878a2, #eb85ab);
+    z-index: 1;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.5s ease-in-out;
+  }
+  header nav #card_menu ul li a:hover::before{
+    transform: scaleX(1);
+  }
+
+  header nav #card_menu ul li[data-animation="center"] a::before {
+    transform-origin: center;
+  }*/
+  #contact_form{
+    top: 50px;
+    width: 350px;
+  }
+  #slider #inicio h1{
+    text-align: center;
+    font-size: 7vh;
+  }
+  #slider #inicio #container1{
+    width:45%;
+    left: 0px;
+    position: relative;
+    margin-left: 5%;
+  }
+
+  #slider #inicio .container{
+    position:relative;
+  }
+
+  #slider #inicio #container1{
+    width:45%;
+    top: 30px;
+    position: relative;
+  }
+
+  #slider #inicio #pluma{
+    width:45%;
+    float: right;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -150px;
+    display: block;
+  }
+  #slider #inicio #pluma img{
+    margin-left: -20px;
+    margin-top: 30px;
+
+  }
+  #slider #inicio #container1 #p1{
+    float: right;
+    background: yellow;
+    border-radius: 5px;
+    text-align: center;
+    font-style: italic;
+    font-size: 23px;
+    position: relative;
+  }
+  #slider #inicio #container2{
+    width:45%;
+    left: 50%;
+    position: relative;
+    top: 100px;
+  }
+  #slider #inicio #container2 #p2{
+    text-align: center;
+    font-style: italic;
+    float: right;
+    display: block;
+    font-size: 23px;
+  }
+  #slider #inicio #lapiz{
+    display: block;
+    width:45%;
+    left: -20px;
+    max-height: 300px;
+    position: relative;
+
+  }
+  #slider #inicio #lapiz img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: rotateZ(180deg);
+    position: relative;
+    top: -10px;
+    width:300px;
+  }
+  #slider #inicio #container3{
+    top: 50px;
+    display: block;
+    position: relative;
+    width: 90%;
+    left: 5%;
+  }
+  #slider #inicio #p3{
+    width:90%;
+    position: relative;
+    left: 0px;
+    text-align: center;
+    font-style: italic;
+    font-size: 23px;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  #slider #inicio #container4{
+    position: relative;
+    width: 90%;
+    left: 5%;
+    top: 60px;
+  }
+  #slider #inicio #p4{
+    font-size: 23px;
+  }
+  #slider #inicio #container5{
+    position: relative;
+    width: 90%;
+    left: 5%;
+    top: 80px;
+  }
+
+  #slider #inicio #p5{
+    font-size: 30px;
+  }
+  #slider #inicio ul{
+    position: relative;
+    top: -10px;
+    text-align:justify;
+    list-style: none;
+  }
+
+  #slider #inicio li{
+    margin: 3px;
+    font-style: italic;
+    font-size: 23px;
+    text-align: justify;
+    left:20px;
+    position: relative;
+  }
+  #slider #sobremi{
+    width: 100vw;
+  }
+  #slider #sobremi #foto{
+    width: 350px;
+    height: 350px;
+    margin-left: -175px;
+  }
+  #slider #sobremi #foto img{
+    width: 350px;
+    height: 350px;
+  }
+  #slider #sobremi h2{
+    text-align: center;
+  }
+  #slider #sobremi p{
+    position: relative;
+    top: -10px;
+    text-align: justify;
+    font-size: 0.9em;
+    width: 80vw;
+    margin-left: 10vw;
+  }
+  #slider #sobremi a{
+    display: block;
+  }
+  #slider #sobremi .iconopdf{
+    left: 10px;
+  }
+  #slider #sobremi .iconopdf::before{
+    font-style: normal;
+    font-family: 'icomoon';
+    content:"\eadf";
+    font-size: 1.5em;
+    color: black;
+  }
+  #slider #sobremi #CV{
+    width: 200px;
+    margin-left: -100px;
+    margin-bottom: 30px;
+  }
+  #slider #sobremi #pCV{
+    width: 200px;
+    left: 20px;
+    display: block;
+    text-align: left;
+    top: -15px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #slider #sobremi .articulo{
+    text-align: center;
+    margin-bottom: 60px;
+    color: black;
+    position: relative;
+    background: white;
+    width: 300px;
+    left: 50vw;
+    height: 40px;
+    margin-left: -150px;
+    padding-top: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+    text-decoration: none;
+    margin-top: -10px;
+  }
+
+  #slider #sobremi #part1, #slider #sobremi #part2{
+    width: 300px;
+    display: block;
+    text-align: left;
+    top: -15px;
+    left: 35px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #slider #sobremi .articulo:hover{
+    background: red;
+    box-shadow: 0px 0px 15px black;
+  }
+  #slider #sobremi .container{
+    font-style: normal;
+    font-size: 1em;
+    position: relative;
+    margin-top: 10px;
+    padding-top: 5px;
+  }
+
+
+
+
+
+
+  #slider #cursos #infoseminarios{
+    margin-bottom: 125px;
+    margin-top: -125px;
+  }
+  #slider #cursos #infosemi{
+    margin-bottom: 125px;
+  }
+
+  ul.romannumbers{
+    position: relative;
+    left: 12.5px;
+  }
+  #contact_form{
+    width: 450px;
+  }
+
+  #contact_button{
+    width: 77.5px;
+    height: 77.5px;
+    top: 80vh;
+  }
+
+  footer{
+    height: 165px;
+    bottom: -145px;
+  }
+
+  footer:after{
+    height: 90px;
+    width:90px;
+    margin-left: -45px;
+    margin-top: -35px;
+    font-size: 4em;
+  }
+
+  footer .rrss{
+    margin-top: 55px;
+    width: 100%;
+    height: 60px;
+  }
+
+  footer .rrss a{
+    width: 60px;
+    height: 60px;
+  }
+
+  footer .rrss a:before{
+    top:4.5px;
+    left:7.5px;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  body {
+
+  }
+  header nav #card_menu{
+    padding:0px;
+    display: inline-block;
+    border: none;
+    background: none;
+    position: relative;
+    top: 5px;
+    width: 100%;
+    height:100%;
+    padding-bottom: 0px;
+    font-size: 0.7em;
+  }
+  header nav #card_menu ul{
+    margin-top:-5px;
+    vertical-align: middle;
+    border:none;
+    text-align: center;
+    top: 17.5px;
+    position: relative;
+    text-align: right;
+  }
+
+  header nav #card_menu ul li{
+    display: inline-block;
+    max-width: 300px;
+    margin: 10px;
+    line-height: 20px;
+    vertical-align: middle;
+  }
+  header nav #card_menu ul li:nth-child(3){
+    margin-right: 0px;
+  }
+  header nav #card_menu ul li:nth-child(3){
+    margin-left: 0px;
+  }
+  header nav #card_menu ul li:nth-child(4){
+    margin-left: 0px;
+  }
+  header nav #card_menu ul li:nth-child(5){
+    margin-left: 0px;
+  }
+  header nav #card_menu ul li a{
+    color: black;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(gray, gray), linear-gradient(white, white);
+    background-size: 0 5px, auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: all .3s ease-out;
+  }
+}
